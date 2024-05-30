@@ -1,0 +1,7 @@
+#webpage {
+    display: flex;
+}
+
+#left-side {
+    width: 60rem;
+}
