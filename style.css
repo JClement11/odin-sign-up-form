@@ -9,4 +9,8 @@
 
 #left-side {
     width: 60rem;
+    height: 100vh;
+    background-image: url(pictures/ferns.jpg);
+    background-size: cover;
 }
+
