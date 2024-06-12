@@ -45,8 +45,36 @@ footer {
 #copyright {
     color: white;
 }
+
+#right-side {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .text {
     font-size: 1.5em;
     font-weight: bold;
     line-height: 25px;
+}
+
+#paragraph {
+    margin-bottom: 2rem;
+}
+
+#top, #bottom {
+    background-color: #F9F9F9;
+    width: 100%;
+}
+
+#top {
+    height: 35%;
+    padding: 10rem 10rem 1rem 4rem;
+}
+
+#middle {
+    height: 30%;
+}
+
+#bottom {
+    height: 35%;
 }
