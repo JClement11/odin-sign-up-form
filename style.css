@@ -78,3 +78,12 @@ footer {
 #bottom {
     height: 35%;
 }
+
+label, input {
+    display: flex;
+    flex-direction: column;
+  }
+
+form {
+    display: flex;
+}
