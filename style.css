@@ -83,7 +83,27 @@ label, input {
     display: flex;
     flex-direction: column;
   }
+  
+  label {
+    padding-top: 1rem;
+  }
 
 form {
     display: flex;
+}
+
+#left-inputs {
+    padding: 0 5rem 2rem 4rem;
+}
+
+#right-inputs {
+    margin: 0 0 2rem 0;
+}
+
+h2 {
+    padding: 1rem 0 0 4rem;
+}
+
+#bottom {
+    padding: 3rem 0 0 4rem;
 }
