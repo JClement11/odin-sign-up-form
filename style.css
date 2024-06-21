@@ -84,9 +84,9 @@ label, input {
     flex-direction: column;
   }
 
-  label {
+label {
     padding-top: 1rem;
-  }
+    }
 
 form {
     display: flex;
@@ -126,4 +126,14 @@ h2 {
 #footer-text em {
     font-style: normal;
     color: #596D48;
+}
+
+#password:invalid, #confirm-password:invalid {
+    border-color: red;
+}
+
+input:focus {
+    outline: none;
+    border-color: blue !important;
+    box-shadow: 1px 3px 6px 1px rgba(0,0,255,0.34);
 }
