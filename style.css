@@ -83,7 +83,7 @@ label, input {
     display: flex;
     flex-direction: column;
   }
-  
+
   label {
     padding-top: 1rem;
   }
@@ -106,4 +106,15 @@ h2 {
 
 #bottom {
     padding: 3rem 0 0 4rem;
+}
+
+#submit {
+    margin-bottom: 2rem;
+    padding: 15px 75px;
+    border-radius: 10px;
+    border: none;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
 }
